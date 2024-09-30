@@ -1,0 +1,57 @@
+/* Cài đặt cho lớp bodyAdmin nếu cần */
+.bodyAdmin {
+    background-color: #ffebeb; /* Thay đổi theo màu nền mong muốn */
+  }
+  
+  /* Tùy chỉnh thẻ hr trong sidebar */
+  .sidebar-divider {
+    border: none;
+    border-top: 2px solid #6c757d; /* Màu sắc của đường kẻ ngang */
+    margin: 20px 0;
+  }
+  
+  /* Thay đổi màu nền của thẻ hr trong dropdown */
+  .dropdown-divider {
+    border-top: 1px solid #6c757d; /* Màu sắc của đường kẻ ngang trong dropdown */
+  }
+.strong:hover{
+   padding: 8px;
+   border-radius: 4px;
+   color: white;
+
+}  
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0b0c2a; /* Background color for the wrapper */
+}
+
+.form-wrapper .col-md-6 {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 15px; /* Space for scrollbar */
+  padding-left: 15px;
+  background-color: white; /* Background for each column */
+  border-radius: 5px;
+}
+
+.form-wrapper h3 {
+  margin-bottom: 20px;
+}
+
